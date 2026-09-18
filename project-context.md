@@ -23,3 +23,4 @@
 - 2026-09-18: Created public repository `MCYJ/sie-prep-by-rushlabs-web`. GitHub Pages deployment run `35351139719` passed.
 - 2026-09-18: Production QA confirmed all 21 sitemap routes and seven required assets return HTTP 200, an unknown route returns HTTP 404, Google Play is the only active Store CTA, and App Store remains Coming soon with no invented URL.
 - 2026-09-18 design refinement: applied `word-break: keep-all` with safe overflow handling across body text and controls so Korean/localized copy does not split awkwardly; URLs and contact strings retain emergency wrapping.
+- 2026-09-18 Store badge refinement: normalized marketplace controls to a shared 194×75 frame while preserving each official badge asset's aspect ratio; local build and check passed.
