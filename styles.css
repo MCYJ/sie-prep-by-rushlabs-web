@@ -14,6 +14,8 @@
   font-synthesis: none;
 }
 * { box-sizing: border-box; }
+body, button, input, select, textarea { word-break: keep-all; overflow-wrap: break-word; }
+a, code, .contact-email { overflow-wrap: anywhere; }
 html { scroll-behavior: smooth; }
 body { margin: 0; min-width: 320px; background: linear-gradient(90deg, transparent 0 31px, rgba(119,80,27,.06) 32px), var(--paper); background-size: 32px 100%; font-size: 1rem; line-height: 1.65; }
 img { max-width: 100%; height: auto; }
