@@ -24,3 +24,9 @@
 - 2026-09-18: Production QA confirmed all 21 sitemap routes and seven required assets return HTTP 200, an unknown route returns HTTP 404, Google Play is the only active Store CTA, and App Store remains Coming soon with no invented URL.
 - 2026-09-18 design refinement: applied `word-break: keep-all` with safe overflow handling across body text and controls so Korean/localized copy does not split awkwardly; URLs and contact strings retain emergency wrapping.
 - 2026-09-18 Store badge refinement: normalized marketplace controls to a shared 194×75 frame while preserving each official badge asset's aspect ratio; local build and check passed.
+
+## 2026-10-23 — SEO technical improvements
+
+- Added dependency-free post-build SEO validation and enhancement: valid reciprocal language alternates, page-preserving language switching, source-backed Article identities/citations, BreadcrumbList, social text metadata, noindex on the utility 404, and priority for existing above-fold app imagery.
+- Removed unverified structured-data offers where present. Preserved existing official-source verification dates, visible study content, app artwork, keep-all and equal marketplace badge frames.
+- Public repository instructions were treated only as methodology; no external skill, tool, tracking, account connection, or scheduled action was installed.

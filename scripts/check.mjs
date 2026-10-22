@@ -40,3 +40,5 @@ if (failures.length) {
   process.exit(1);
 }
 console.log(`Checked ${htmlFiles.length} HTML files; required metadata and local references passed.`);
+
+if(!(await readFile(join(out,"en/index.html"),"utf8")).includes("id6795572831"))throw new Error("Verified App Store identity missing");
